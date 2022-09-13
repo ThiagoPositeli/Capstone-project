@@ -30,8 +30,7 @@ That's because the company already partnered with Google, the free tier seems to
 
 <h2>How to run</h2>
 
-All reference on how to run and read the files, is in the jupyter notebook in here: https://github.com/ThiagoPositeli/Capstone-project/blob/main/Data Quality Pipeline Big Query.ipynb
-
+All reference on how to run and read the files, is in the jupyter notebook in here: https://github.com/ThiagoPositeli/Capstone-project/blob/main/Data%20Quality%20Pipeline%20Big%20Query.ipynb
 
 <h2>Improvements</h2>
 
