@@ -36,10 +36,6 @@ The nm_regra attribute for example comes from a table that has minimal records a
 <h2>How to run</h2>
 
 All reference on how to run and read the files, is in the jupyter notebook in here: https://github.com/ThiagoPositeli/Capstone-project/blob/main/Data%20Quality%20Pipeline%20Big%20Query.ipynb
-<<<<<<< HEAD
-
-=======
->>>>>>> 8c020a2ede643678a20e78acaad11c498133f1eb
 
 <h2>Project Write Up</h2>
 
