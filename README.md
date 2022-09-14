@@ -18,6 +18,11 @@ This library generates a processing log file that you can analyze later and in t
 That's because the company already partnered with Google, the free tier seems to fit our needs better and the services (especially BigQuery) too.
 
 
+<h2>Data Modelling Star Schema in BigQuery</h2>
+I considered using a star schema model to follow the pattern invented by kimball.
+I could have used a denormalized model, as the big query is a columnar database and handles well if it doesn't have joins, however, over time the tables tend to get huge and a star schema model helps when we are going to create a dashboard in tableau, because when creating an attribute, we don't need to self join the same table.
+The nm_regra attribute for example comes from a table that has minimal records and with that the tableau machine will read faster and the information will appear faster on the dashboard.
+
 <h2>Summary of Contents</h2>
 
  - Data Dicionary and Data Modelling 
