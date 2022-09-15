@@ -189,9 +189,9 @@ def dataquality():
         raise ValueError("Number of Columns does not Match with Expected Value!")
         
     if df_dim_dimensoes.count() > 0:
-        print("Number of Columns Test Passed!")
+        print("this table is not null Test Passed!")
     else:
-        raise ValueError("Number of Columns does not Match with Expected Value!")
+        raise ValueError("This table have null values, does not Match with Expected Value!")
     
     
     check_columns2 = df_dim_regras_ge.columns
@@ -202,9 +202,9 @@ def dataquality():
 
 
     if df_dim_regras_ge.count() > 0:
-        print("Number of Columns Test Passed!")
+        print("this table is not null Test Passed!")
     else:
-        raise ValueError("Number of Columns does not Match with Expected Value!")
+        raise ValueError("This table have null values, does not Match with Expected Value!")
 
 
     check_columns3 = df_final.columns
@@ -214,9 +214,9 @@ def dataquality():
         raise ValueError("Number of Columns does not Match with Expected Value!")
 
     if df_final.count() > 0:
-        print("Number of Columns Test Passed!")
+        print("this table is not null Test Passed!")
     else:
-        raise ValueError("Number of Columns does not Match with Expected Value!")
+        raise ValueError("This table have null values, does not Match with Expected Value!")
 
 
 
